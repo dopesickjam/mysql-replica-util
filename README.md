@@ -1,0 +1,1 @@
+Util for checking mysql replication and trying restore replication, send notification to telegram.

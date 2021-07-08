@@ -1,0 +1,16 @@
+image:
+  repository: null-repo
+  tag: null-tag
+  pullPolicy: Always
+  pullSecret: docker-registry-mysql-slave-sync
+
+metadata:
+  deployedBy: null-value
+  piplineUrl: null-value
+
+cron:
+  schedule: '*/30 * * * *'
+  failedJobsHistoryLimit: 1
+  successfulJobsHistoryLimit: 3
+  concurrencyPolicy: Forbid
+  backoffLimit: 4
